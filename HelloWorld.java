@@ -12,9 +12,26 @@ public class HelloWorld
         } else {
             System.out.println("FAILURE");
         }
-        System.out.println("Hello World!");
+        if (b==2){
+            System.out.println("SUCCESS");
+        } else {
+            System.out.println("FAILURE");
+        }
+        if (c!=1){
+            System.out.println("SUCCESS");
+        } else {
+            System.out.println("FAILURE");
+        }
+        if (d==-8 && a==4){
+            System.out.println("SUCCESS");
+        } else {
+            System.out.println("FAILURE");
+        }
+        }
         
-    }
+        
+        
+    
     
     
     public static void main(String[] args)
